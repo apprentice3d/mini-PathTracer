@@ -1,4 +1,7 @@
+[![wercker status](https://app.wercker.com/status/e080cfe463bdb9c26e0697a2d84052eb/m/master "wercker status")](https://app.wercker.com/project/byKey/e080cfe463bdb9c26e0697a2d84052eb)
+
 # mini-PathTracer
+
 simple path-tracer to be used in some of my cloud auto-scale illustrations.
 
 It mainly follows the approach illustrated by Peter Shirley in his RayTracing series [Ray Tracing in one weekend](http://www.amazon.com/gp/product/B01B5AODD8/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01B5AODD8&linkCode=as2&tag=inonwe09-20&linkId=OPNJXXJY2IBCMEGE) and its continuation.
