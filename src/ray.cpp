@@ -5,18 +5,18 @@
 #include "ray.h"
 
 
-ray::ray(const vec3 &origin, const vec3 &direction) {
-
+ray::ray(const vec3 &origin, const vec3 &direction)
+        : A(origin), B(direction) {
 }
 
-vec3 ray::origin() const{
+vec3 ray::origin() const {
     return A;
 }
 
-vec3 ray::direction() const{
+vec3 ray::direction() const {
     return B;
 }
 
-vec3 ray::getPointAt(float position) const{
-    return A + B*position;
+vec3 ray::getPointAt(float position) const {
+    return A + B * position;
 }
